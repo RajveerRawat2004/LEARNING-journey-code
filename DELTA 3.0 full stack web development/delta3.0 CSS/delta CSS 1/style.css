@@ -1,0 +1,77 @@
+/* h1{
+    color:rebeccapurple;
+    background-color: gray;
+}
+
+p{
+    color: gainsboro;
+    background-color: cornsilk;
+}
+
+button{
+    color:honeydew;
+    background-color: black;
+} */
+
+/* h2{
+    color: orange;
+}
+
+p{
+    color: white;
+    background-color: blue;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+h2{
+    background-color: #ffffff;
+    background-color: #00ff00;
+    background-color: #ff9f00;
+} */
+
+/* h1{
+    color: #ffa500;
+    text-decoration: teal double underline;
+    text-align: center;
+    line-height: 1.5;
+    font-family: league spartan;
+    color: #ffa511;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+} */
+
+body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: #a52a2a;
+    color: #f00;
+    line-height: 30px;
+}
+
+h1{
+    color: #000;
+    text-decoration: wavy black underline;
+}
+
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: #000;
+}

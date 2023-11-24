@@ -1,0 +1,86 @@
+#first,#second,#third,#fourth{
+    text-align: center;
+
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: blue underline;
+    text-decoration: dotted underline;
+    text-decoration: wavy underline;
+    text-decoration: double underline;
+    text-decoration: dashed underline;
+}
+#p1{
+    text-align: right;
+    text-align: left;
+    text-align: start;
+    text-align: end;
+    text-align: center;
+
+    font-family: arial;
+
+    font-size: 20px;
+
+    line-height: 50px;
+    
+    text-transform: lowercase;
+}
+#p2{
+    text-align: center;
+
+    font-family: 'Segoe UI';
+    font-family: Impact, Haettenschweiler;
+
+    font-size: 30px;
+    
+    line-height: normal;
+
+    text-transform: capitalize;
+}
+#p3{
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT';
+
+    font-size: 40px;
+
+    line-height: 5px;
+
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+#first{
+    font-weight: lighter;
+    font-weight: 100;
+}
+#second{
+    font-weight: normal;
+    font-weight: 250;
+}
+#third{
+    font-weight: bold;
+    font-weight: 600;
+}
+#fourth{
+    font-weight: bolder;
+    font-weight: 900;
+}
+#pixel{
+    font-size: 1px;
+}
+/* question 2 */
+#q1h{
+    text-align: center;
+    text-transform: capitalize;
+}
+*{
+    font-family: 'Lucida Sans';
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}

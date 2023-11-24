@@ -1,0 +1,31 @@
+*{
+    color : blue;
+}
+h1{
+    color : green;}
+button{
+    color: brown;}
+
+#HeadingOne{
+    color: purple;
+}
+.myclass{
+    color: black;
+}
+/* first Question level one */
+#box{
+    background-color: blue;
+    color:white;
+}
+/* Second Question level one */
+.heading{
+    color:red;
+}
+h1,h2,h3{
+    color:red;
+}
+/* THIRD Question level one */
+button{
+    background-color:goldenrod;
+    color: #0fff0f;
+}

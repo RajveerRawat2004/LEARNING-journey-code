@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 4</title>
+    <link rel="icon" href="just social logo.png">
+</head>
+
+<body>
+    <table border="black">
+        <thead>
+            <caption>Food memo</caption>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>frooti</td>
+                <td>10</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>samosa</td>
+                <td>12</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>chips</td>
+                <td>20</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Qusetion 1</h2>
+    <table border="black">
+        <caption>A test table with merged Cells</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>Weight</td>
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>forms</h3>
+    <form action="/action">
+        <input /><br>
+        Username<input type="text" alt="type here" placeholder="text input"><br>
+        password<input type="password" placeholder="enter strong password"><br>
+        number<input type="number"><br>
+        time<input type="time" name="" id=""><br>
+        color <input type="color" name="" id="">
+    </form>
+    <hr>
+    <h3>label and placeholder</h3>
+    <form action="">
+        <div>
+            <input type="text" placeholder="Enter your name">
+            <label for="username">
+                Username
+                <input type="text" name="" id="username1" placeholder="type your username">
+            </label>
+            <label for="password">
+                password
+                <input type="password" placeholder="enter strong password" id="password1">
+            </label>
+        </div>
+        <div>
+            <label for="username1">Username2 : </label>
+            <input type="text" name="" id="username2" placeholder="type your username">
+        </div>
+        <div>
+            <label for="password2">password2 :</label>
+            <input type="password" placeholder="enter strong password" id="password2">
+        </div>
+        <div>
+            <label for="age">Enter age :</label>
+            <input type="number" name="" id="age" placeholder="age">
+        </div>
+    </form>
+    <hr>
+    <h3>button</h3>
+    <form action="/server.php">
+        <p>by default every button has action to submit the form information to action location</p>
+        <button>
+            submit
+        </button>
+        <button>
+            Hello
+        </button>
+        <p> types</p>
+        <button type="submit">submit .. type 1 submit</button>
+        <button type="button">Submit .. type 2 button</button>
+        <button type="reset">RESET...type 3 reset</button>
+    </form>
+    <p>OUTside the form</p>
+    <button type="submit">Hello</button>
+    <p>input type - button</p>
+    <input type="button" name="" id="inputbutton" value="click me">
+    <p>input type - submit</p>
+    <form action="/server">
+        <input type="submit" name="" id="" value="click me">
+    </form>
+    <hr>
+    <h3>name attribute</h3>
+    <form action="server">
+        <div>
+            <label for="username">Username3</label>
+            <input type="text" id="username" name="username" placeholder="username enter">
+        </div>
+        <div>
+            <label for="password">password3</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    https protocol data details hide
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search youtube" name="search_query">
+        <button>search</button>
+    </form>
+    <hr>
+    <h3>EXERCISE</h3>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search in Google">
+        <button>submit</button>
+    </form>
+
+    <h4>more exercies</h4>
+
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q" placeholder="Search in reddit">
+        <button>submit</button>
+    </form>
+
+    <form action="https://www.amazon.com/s">
+        <input type="text" name="k" placeholder="Search in Amazon">
+        <button>submit</button>
+    </form>
+
+    <form action="https://twitter.com/search">
+        <input type="text" name="q" placeholder="Search in twitter">
+        <button>submit</button>
+    </form>
+
+    <form action="https://www.facebook.com/search/top">
+        <input type="text" name="q" placeholder="Search in facebook">
+        <button>submit</button>
+    </form>
+    <hr>
+    <h3>checkbox - input type</h3>
+    <form action="server">
+        <input type="checkbox" id="age" name="age" checked >
+        <label for="age" checked>I am 18+</label>
+        <button>submit</button> 
+    </form>
+    <hr>
+    <h3>checkbox - input type</h3>
+    <form action="server">
+        <div>
+            <input type="radio" id="mango" name="fruit" value="mango">
+            <label for="mango" checked>mango</label>
+            <input type="radio" id="Apple" name="fruit" value="Apple">
+            <label for="Apple" checked>Apple</label>
+            <input type="radio" id="Banana" name="fruit" value="Banana">
+            <label for="Banana" checked>Banana</label>
+        </div>
+        Choose your subjects :
+        <div>
+            <input type="checkbox" id="math" name="sub" value="math" >
+            <label for="math" checked>math</label>
+            <input type="checkbox" id="English" name="sub" value="Eng" >
+            <label for="English" checked>English</label>
+            <input type="checkbox" id="Physics" name="sub" value="Phy" >
+            <label for="Physics" checked>Physics</label>
+        </div>
+        <button>submit</button> 
+    </form>
+    <hr>
+    <h3>Select drop down</h3>
+    <form action="server">
+        Choose your profession 
+        <select name="profession" id="profession">
+            <option value="no">Select your option</option>
+            <option value="stu" >student</option>
+            <option value="dev" selected>developer</option>
+        </select>
+    </form>
+    <hr>
+    <h3>Range - input type</h3>
+    <form action="server">
+        <label for="volume">
+            <input type="range" name="vol" id="volume" min="0" max="100" step="20" value="60">
+        </label>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h3>Text area </h3>
+    <form action="server">
+        Please give your valuable feedback :
+        <label for="feedback"></label>
+        <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="write HEre "> </textarea>
+        <button>submit</button>
+    </form>
+    <hr>
+    <h3>PracticeQuestion - 9</h3>
+    <form action="server">
+        <h4>Regestration Form</h4>
+        <div>
+            <input type="text" name="first" id="" placeholder="First Name">
+            <input type="text" name="last" id="" placeholder="Last Name">
+        </div>
+        <div>
+            <label for="gender">please select gender</label>
+            <select name="gend" id="gender">
+                <option value="m">male</option>
+                <option value="f">female</option>
+                <option value="o">other</option>
+            </select>
+        </div>
+        <div>
+            do you agree all terms of Services?
+            <input type="checkbox" name="agree" id="agree" value="yes" checked>
+            <label for="agree">Yes, I agree</label>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+    <h2>Assignment</h2>
+    <h3>Question 1</h3>
+    <table border="black">
+        <section>Student information</section>
+        <tr>
+            <th rowspan="6">info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>             
+        </tr>
+    </table>
+    <h3>Question 2</h3>
+    <form action="server">
+
+        <label for="Name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Your Full Name">
+        <br><br>
+
+        Sex:
+        <input type="radio" name="sex" id="male" value="m">
+        <label for="sex">male</label>
+        <input type="radio" name="sex" id="female" value="f">
+        <label for="sex">female</label>
+        <br><br>
+
+        <label for="country">country:</label>
+        <select name="con" id="country">
+            <option value="no">Select an option</option>
+            <option value="in">India</option>
+            <option value="us">United Stated of America</option>
+            <option value="eu">Europe</option>
+            <option value="ch">China</option>
+            <option value="cn">Canada</option>
+            <option value="ne">Nepal</option>
+        </select>
+        <br><br>
+
+        Message:<br>
+        <textarea name="Qs" id="message" cols="30" rows="10">type here</textarea>
+        <br><br>
+        
+        <input type="checkbox" name="sub" id="subscribe">
+        <label for="subscribe">Subscribe ?</label>
+        <br><br>
+
+        <button>submit</button>
+
+    </form>
+    <h3>Question -3 </h3>
+    <h4>Feedback Form</h4>
+
+    <form action="server">
+
+        <label for="name">Name :</label>
+        <input type="text" name="N" id="name" placeholder="your name">
+        <br><br>
+
+        <label for="mail">E-mail :</label>
+        <input type="text" name="em" id="mail" placeholder="your E-mail">
+        <br><br>
+
+        Message : <br>
+        <textarea name="F" id="" cols="30" rows="10"></textarea>
+        <br><br>
+
+        Rate us our of 5 :
+        <br>
+        <input type="radio" name="R" id="1" value="1">
+        <label for="1">1</label><br>
+        <input type="radio" name="R" id="2" value="2">
+        <label for="2">2</label><br>
+        <input type="radio" name="R" id="3" value="3">
+        <label for="3">3</label><br>
+        <input type="radio" name="R" id="4" value="4">
+        <label for="4">4</label><br>
+        <input type="radio" name="R" id="5" value="5">
+        <label for="5">5</label><br>
+        <br>
+
+        <button type="submit">Send your Message!</button>
+    </form>
+</body>
+
+</html>

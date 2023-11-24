@@ -1,0 +1,78 @@
+/* h1 {
+    display: inline;
+}
+div{
+    display: inline;
+}
+button{
+    display: block;
+} */
+/* div {
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+} */
+/* #div1 { */
+    /* display: none; */
+    /* background-color: rgba(255, 0, 0, 0.85); */
+/* } */
+/* #div2 { */
+    /* visibility: hidden; */
+    /* background-color: rgba(255, 0, 0, 0.55); */
+/* } */
+/* #div3 {
+    background-color: rgba(255, 0, 0, 0.05);
+    display: inline-block;
+    margin-top: 100px;
+}
+h1{
+    display: inline-block;
+    margin-top: 50px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+#navibar{
+    background-color: #0f1111;
+    border: 3px solid white;
+    height: 60px;
+    font-size: 25px;
+}
+#searchbutton{
+    background-color: #f08804;
+    border: none;
+}
+#logo{
+    color: darkorange;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border: black dashed 5px;
+    display: inline-block;
+    color: black;
+}
+#div1{
+    background-color:rgba(0, 255, 255, 0.5);
+}
+#div2{
+    background-color:rgba(255, 0, 255, alpha);
+}
+#div3{
+    background-color:rgba(255, 255, 0, 0.5);
+}
+#content{
+    height: 600px;
+}
+footer{
+    background-color: #0f1111;
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+/* h1{
+    height: 100px;
+    width: 400px;
+    background-color: pink;
+    border: 5px dashed grey ;
+    text-align: center ;
+    border-radius: 15px;
+}
+p{
+    height: 50px;
+    background-color: brown;
+}
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-width: 5px;
+    border-style :solid;
+    border-color: black;
+    border-radius: 50%;
+} */
+/* div{ */
+    /* height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%; */
+    /* padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px; */
+    /* padding: 25px 50px 50px 25px; */
+    /* padding: 50px; */
+    /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 20px; */
+    /* margin: 10px 20px 20px 10px; */
+    /* margin: 20px;
+    text-align: center; */
+    /* border-width: 5px;
+    border-style :solid;
+    border-color: black; */
+    /* border: 5px solid black; */
+/* } */
+/* #Q1{
+    border-style: none;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+#navibar{
+    background-color: #0f1111;
+    border: 3px solid white;
+    height: 60px;
+    font-size: 25px;
+}
+/* #logo,#account,#mycart,#contact{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+} */
+#searchbutton{
+    background-color: #f08804;
+    border: none;
+}
+#logo{
+    color: darkorange;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+}

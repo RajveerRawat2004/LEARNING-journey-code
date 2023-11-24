@@ -1,0 +1,173 @@
+.Randomdiv{
+    height: 200px;
+    width: 500px;
+    background: rgb(255, 205, 150);
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border: 2px solid black;
+    /* border-top: 5px dotted black; */
+    border-top-width: 5px ;
+    /* border-radius: 15px; */
+    /* border-radius: 50%; */
+    border-top-right-radius: 10%;
+    padding: 10px;
+    padding-top: 20px;
+    /* margin: 30px; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* .check{
+    background-color: pink;
+} */
+
+.Randomheading{
+    /* border-width: 2px;
+    border-style: dotted;
+    border-color: green; */
+    border: 2px dotted green;
+}
+
+.Randombutton{
+    padding: 0 30px;
+    margin-top: 10px;
+    margin-left: 420px;
+}
+
+/* practice quetion */
+
+.trafficLightBox{
+    border: 2px solid black;
+    /* width: 122px; */
+    width: 70px;
+    /* height: auto; */
+    height: 200px;
+}
+.lights {
+    /* height: 100px; */
+    height: 50px;
+    /* width: 100px; */
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.section3rd h1{
+    /* display: inline; */
+}
+
+.section3rd span{
+    display: block;
+}
+
+.section3rd .sample2 span {
+    background-color: rgba(255, 192, 203, 0.359);
+    display: inline ;
+    border: 2px solid black;
+    /* outline: 2px solid black; */
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.section3rd .sample2 div {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: rgba(0, 255, 255, 0.423);
+}
+
+.sample3{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+    /* display: inline; */
+}
+
+.sample3A{
+    display: none;
+}
+
+.sample4{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.outerdiv{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.innerdiv{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    /* margin: 10%; */
+    font-size: 3em;
+    padding: 1em;
+}
+
+.embutton{
+    font-size: 50px;
+    border-radius: 15px;
+    border: 2px solid black;
+    /* padding: 0 20px; */
+    padding: 0 1em;
+}
+
+/* div{
+    font-size: 2em;
+} */
+
+/* Assignment Questions */
+
+.Q1{
+    height: 150px;
+    width: 150px;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+.Q2{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+ul{
+    /* display: inline; */
+}
+
+li{
+    display: inline;
+
+    /* BULLETS DISAPPEAR BECAUSE THEY HAVE THE DEFAULT PROPERTY OF DISPLAY list-style AND NOW WE OVERWRITE IT SO LIST POINT DISAPPEARED */
+
+}

@@ -1,0 +1,104 @@
+/* #outside{
+    display: inline-block;
+    border: 1px solid black ;
+}
+#box1{
+    display: block;
+    height: 33.33px;
+    width: 250px;
+    background-color: orange;
+}
+#box2{
+    display: block;
+    height: 33.33px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+#box3{
+    display: block;
+    height: 33.33px;
+    width: 250px;
+    background-color: rgb(0, 255, 0);
+}
+circle{
+    height: 33.33px;
+    width: 33.33px;
+    border: 2px solid #0f1111;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 255);
+} */
+
+/* #boxa{
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    font-size: 30px;
+}
+#boxb{
+    height: 50%;
+    width: 50vw;
+    font-size: 5em;
+    margin-top: 50vh;
+    background-color: green;
+} */
+
+/* div{
+    display:inline-block;
+}
+#boxc{
+    height: 100px;
+    width:300px;
+    background-color: yellow;
+    position: static;
+    top: 100px;
+}
+#boxd{
+    height: 100px;
+    width:300px;
+    background-color: green;
+    position: relative;
+    top: 40px;
+    right: 50px;
+    background-image: url("just\ social\ logo.png");
+    background-size: cover;
+}
+#boxe{
+    height: 100px;
+    width:300px;
+    background-color: gray;
+    position:absolute;
+    top: 180px;
+    left: 100px;
+    z-index: -3;
+    text-align: end;
+}
+#boxf{
+    height: 100px;
+     width:100vw;
+    background-color: black;
+    color: white;
+    position:fixed;
+    top: 0px;
+    right:0;
+}
+body{
+    background-image: url("just\ social\ logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+p{
+    text-align: justify;
+}
+div{
+    height: 150px;
+    width: 300px;
+    background-image: url("poster\ rajveer\ c.png");
+    background-size: cover;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    z-index: 5;
+}
