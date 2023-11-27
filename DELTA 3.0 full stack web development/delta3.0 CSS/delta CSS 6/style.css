@@ -1,16 +1,87 @@
 .container{
     height: 600px;
-    width: 300px;
-    background-color: azure;
+    width: 800px;
+    background-color: yellow;
     display: grid;
-    grid-template-rows: 100px 100px 100px;
-    
+    grid-template-rows: 130px 50px 50px 50px 50px;
+    /* grid-template-columns: 100px 100px 100px; */
+    /* grid-template-columns: 150px 150px auto; */
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-template-rows: 1fr 1fr 1fr  ;
+    grid-template-columns: repeat(3, 1fr);
+    /* row-gap: 20px;
+    column-gap: 30px; */
+    gap: 40px 50px;
+    /* justify-items: center;
+    align-items: flex-end; */
+    place-items: center;
 }
 
 .box{
     height: 100px;
-    width: 50px;
+    width: 100px;
     background-color: aqua;
     border: 2px solid balck;
     text-align: center;
+}
+
+.one{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* grid-column: 1/4; */
+    grid-column: 1/span 2;
+    /* justify-self: flex-start;
+    align-items: flex-start; */
+    place-self: start;
+}
+
+.two{
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    /* grid-row: 1/4; */
+    grid-row: 1/span 3;
+    grid-column: 3/4;
+}
+
+/* ANIMATION */
+/* ANIMATION */
+
+.boxanime{
+    height: 200px;
+    width: 400px;
+    background-color: pink;
+    margin-left: 300px;
+    /* margin-bottom: 300px; */
+    color: white;
+    
+
+    /* animation-name: coloranimation ,fontanimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: 8;
+    animation-direction:alternate-reverse; */
+
+    animation: coloranimation 2s ease-in-out 0s 8 alternate, fontanimation 2s ease-in-out 0s 8 alternate;
+}
+
+@keyframes fontanimation {
+    from{
+        font-size: 20px;
+        font-style: italic;
+        transform: skewX(10deg);
+    }
+    to{
+        font-size: 70px;
+        transform: skewX(-10deg);
+    }
+}
+
+@keyframes coloranimation {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: coral;
+    }
 }
