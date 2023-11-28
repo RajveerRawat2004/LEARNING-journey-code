@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    color: red;
+}
+
+h1 span{
+    color: rgba(165, 42, 42, 0.88);
+}
+
+#pets{
+    display: flex;
+    /* gap: 150px;
+    padding: 0 150px; */
+    justify-content: space-evenly;
+    /* gap: 400px; */
+    /* align-items: center; */
+    /* width: 90vw; */
+    /* width: 90vw; */
+    /* margin: auto; */
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 420px;
+}
+
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+h4{
+    text-align: right;
+    color: rgba(127, 255, 212, 0.738);
+}
+
+@media (max-width: 370px){
+    #pets{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+/* @media (max-width:850px) {
+    #pets{
+        flex-direction: column;
+        width: 60vw;
+    }
+}
+
+@media (max-width:450px) {
+    #pets{
+        flex-direction: column;
+        width: 100vw;
+        margin: auto;
+    }
+    .card{
+        width: 360px;
+    }
+    img{
+        width: 335px;
+    }
+} */
