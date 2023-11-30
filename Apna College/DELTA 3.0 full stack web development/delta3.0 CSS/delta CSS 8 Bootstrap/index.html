@@ -8,9 +8,185 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button>click me</button>
-    <button class="btn btn-success">click me</button>
+    <nav class="navbar bg-primary sticky-top navbar-expand-md" data-bs-theme="dark">
+        <div class="container-fluid">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block my-1" viewBox="0 0 118 94" role="img">
+                <title>Bootstrap</title>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path>
+            </svg>
+            <a href="#" class="navbar-brand">Brand name</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#">About us</a>
+                    <a class="nav-link" href="" disable>HOme</a>
+                </div>
+            </div>
+            <form action="" class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-    <script>https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js</script>
+    <h4 class="container">container // layout</h4>
+    <div class="container-md">
+        <h2>Bootstrap demo (container)</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab officia reprehenderit ducimus doloribus quam ad error numquam quae consequatur eius laboriosam exercitationem possimus similique aliquid, perspiciatis eos sunt iste enim?
+        Sit tenetur ipsa, eligendi animi officia quas placeat, possimus ipsum asperiores culpa id amet quo beatae autem blanditiis at rem dignissimos totam consequuntur numquam quibusdam dolorum ea maiores? Maxime, praesentium?
+        Magnam quaerat quibusdam corporis nulla magni, natus consectetur quo quae aut praesentium quis, accusantium sapiente modi facere unde. Impedit minima quasi voluptas quaerat voluptatum repellendus debitis eius delectus a nemo.
+        Consequatur reiciendis nam soluta atque sapiente perspiciatis earum tenetur culpa unde suscipit quidem, neque asperiores est expedita laudantium aspernatur amet beatae aliquam sequi, iste numquam quas dicta magni blanditiis! Eligendi.
+        Labore sint doloribus nesciunt voluptatibus maxime architecto quisquam dolore ex aut, minus temporibus hic corrupti possimus minima asperiores maiores aperiam ipsa ipsum non nihil corporis. Cupiditate ea minus iure voluptatum?</p>
+        
+        <h4>button // component</h4>
+        <button class="btn btn-danger btn-lg">click me</button>
+        <button class="btn btn-outline-success">click me</button>
+        <button class="btn btn-outline-warning btn-sm">click me</button>
+        <button class="btn btn-outline-info" disabled>click me</button>
+        <br>
+        we can do btn styling on anchor tags to give them button looks :
+        <a href="https://www.google.com" class="btn btn-lg btn-outline-info margin-left-200px">Google</a>
+        <br>
+
+        <h4>Badges // component</h4>
+        <div>
+            <h3 >notificatins<span class="badge bg-primary rounded-pill">20+</span></h3>
+            <br>
+
+            <button class="btn btn-primary">
+                followers
+                <span class="badge bg-secondary rounded-pill">100+</span>
+            </button>
+        </div>
+        <hr>
+
+        <h4>Alert // component</h4>
+        <div class="alert alert-danger">Download failed! please try again</div>
+        <div class="alert alert-green alert-dismissible">
+            Congratulations! your Score is 50/50
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <hr>
+
+        <div class="container">
+            <h4>button group // component</h4>
+            <div class="btn-group">
+                <button class="btn btn-outline-success  "> one</button>
+                <button class="btn btn-outline-success"> two    </button>
+                <button class="btn btn-outline-success"> three</button>
+            </div>
+            <br>
+            <button class="btn btn-success"> one</button>
+            <button class="btn btn-success"> two    </button>
+            <button class="btn btn-success"> three</button>
+        </div>
+
+    </div>
+
+    <h3 class="container">Card // component</h3>
+
+    <div class="card" style="width: 16rem; margin: 10px auto;">
+        <img src="sample image.jpeg" alt="image" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">AI news</h5>
+            <p class="card-text">the thing that will affect everyone's life in a good or better way.</p>
+            <a href="#" class="btn btn-primary">NEws LettEr</a>        
+        </div>
+    </div>
+
+    <h3 class="container">Grid \\ layout</h3>
+
+    <div class="container">
+        <h3>grid system</h3>
+        <div class="row">
+            <div class="col-md-4 bg-danger">one</div>
+            <div class="col-md-8 bg-success">two</div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-2 col-sm-1 bg-danger">one</div>
+            <div class="col-md-8 bg-success">two</div>
+            <div class="col-md-2 bg-danger">three</div>
+        </div>
+        <br>
+        <div class="row align-items-start">
+            <div class="bg-success col  align-self-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi porro repudiandae soluta minima est reprehenderit totam temporibus eos obcaecati quae. Natus est ea corrupti nihil cumque. Alias rerum ab beatae?</div>
+            <div class="bg-danger col ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut necessitatibus sed, dicta consectetur fugiat ipsa totam accusamus asperiores l Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eligendi amet laudantium necessitatibus possimus a ducimus, culpa voluptate totam? Consequatur minus id similique quisquam? Adipisci similique doloribus architecto laudantium nisi?lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, </div>
+            <div class="bg-warning col align-self-end">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam quos nobis labore magni rerum quae! Numquam sunt deleniti nobis at commodi. Ab placeat assumenda reprehenderit et quia. Nobis, assumenda.</div>
+            <div class="bg-info col">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti magnam quos nobis labore magni rerum quae! Numquam sunt deleniti nobis at commodi. Ab placeat assumenda reprehenderit et quia. Nobis, assumenda.</div>
+        </div>
+
+        <div class="container">
+            <h3>form // component</h3>
+            <form class="mb-3" action="">
+                <div class="row">
+                    <div class="mb-3 col-md-6">
+                        <label class="form-label" for="email">email</label>
+                        <input class="form-control" type="text" placeholder="E-mail" id="email">
+                    </div>
+                    <div class="mb-3 col-md-6">
+                        <label class="form-label" for="password">password</label>
+                        <input class="form-control" type="text" placeholder="password" id="password">
+                    </div>
+                </div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                
+                <div class="mb-3">
+                    <label class="form-label" for="address">address</label>
+                    <input class="form-control-lg" type="text" placeholder="address" id="address">
+                </div>
+
+                <h3>select // form control // component</h3>
+                <div class="mb-3">
+                    <label for="rank">city</label>
+                    <select name="rank" id="rank" class="form-select">
+                        <option value="none" selected>choose your city</option>
+                        <option value="1">mumbai</option>
+                        <option value="2">pune</option>
+                        <option value="3">delhi</option>
+                    </select>
+                </div>
+
+                <h3 class="container">checkbox // form control // component</h3>
+                <div class="mb-3">
+                    <input type="checkbox" id="agree">
+                    <label for="agree">agree</label>
+                    <input type="checkbox" id="agreebootsrap" class="form-check-input">
+                    <label for="agreebootsrap" class="form-check-label">agreebootsrap</label>
+                </div>
+
+                <h3 class="container">radio // form control // component</h3>
+                <div class="mb-3">
+                    <input type="radio" id="agree">
+                    <label for="agree">agree</label>
+                    <input type="radio" id="radiobs" class="form-check-input">
+                    <label for="radiobs" class="form-check-label">yes/no</label>
+                </div>
+
+                <h3 class="container">switch // form control // component</h3>
+                <div class="mb-3 form-check form-switch">
+                    <input type="radio" id="switch" class="form-check-input">
+                    <label for="switch" class="form-check-label">agree | a checkbox with a switch styling of bootstrap</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1><u>Assignment Question :</u></h1>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js
+    "></script>
 </body>
 </html>
