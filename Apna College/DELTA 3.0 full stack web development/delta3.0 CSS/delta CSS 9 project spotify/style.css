@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #fff;
+    /* border: 1px solid green; */
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    width: 340px;
+    margin-right: .5rem;
+}
+
+.main-content{
+    flex: 1;
+    background-color: #121212;
+    border-radius: 1rem;
+    overflow: auto;
+    /* padding: 0 1.5rem 0 1.5rem; */
+}
+
+.music-player{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5.5rem;
+}
+
+.nav{
+    padding: 1rem;
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 150px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0.7rem;
+}
+
+.nav-option{
+    line-height: 2.2rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem;
+}
+
+.nav-option:hover{
+    opacity: 1;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title img{
+    height: 1.5rem;
+}
+
+.title-name{
+    margin-left: 0.2rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.nav-option i {
+    font-size: 1.25rem;
+}
+
+.nav-option a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+.library{
+    background-color: #121212;
+    height: 100%;
+    padding: 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lib-option{
+    display: flex;
+    align-items: center;
+}
+
+.lib-option img{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.lib-option a{
+    font-weight: 500;
+} 
+
+.lib-icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+
+.lib-icons i{
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.lib-icons i:hover{
+    opacity: 1;
+}
+
+.box{
+    background-color: #232323;
+    border-radius: .75rem;
+    height: 8rem;   
+    margin: .5rem 0 1.75rem 0;
+    padding: .75rem 1rem;
+}
+
+.boxp1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.boxp2{
+    font-size: .85rem;
+    opacity: .9;
+}
+
+.badge{
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: .25rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+
+.dark-badge{
+    background-color: #000;
+    color: #fff;
+}
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 1rem 0;
+    z-index: 3;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav-opt-in {
+    margin: 0rem 1rem 0 0;
+}
+
+@media (max-width:1000px) {
+    .hide{
+        display: none;
+    }
+}
+
+.cards{
+    padding: 0 2rem 0 2rem;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card{
+    width: 150px;
+    border-radius: .5rem;
+    background-color: #232323;
+    padding: 1rem;
+    /* margin: 1rem 0 0 1.5rem; */
+}
+
+.card-img{
+    border-radius: .5rem;
+    width: 100%;
+}
+
+.card-title{
+    font-weight: 600;
+}
+
+.card-info{
+    font-size: 0.85rem;
+    opacity: .8;
+}
+
+.content-foot{
+    padding: 2.5rem;
+}
+
+.foot-line{
+    border-top: 1px solid white;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2rem;
+    opacity: .4;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copy-links{
+    text-decoration: none;
+    color: #fff;
+    font-size: .7rem;
+    opacity: .7;
+    padding: .5rem;
+}
+
+.copy-links:hover{
+    opacity: 1;
+}
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album{
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .5rem;
+}
+
+.album-image {
+    border-radius: .3rem;
+    height: 3.5rem;
+}
+
+.album-detail{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .2rem;
+}
+
+.album-song{
+    text-decoration: none;
+    color: #Fff;
+    font-size: .8rem;
+    font-weight: 500;
+    opacity: .9;
+}
+
+.album-singer{
+    text-decoration: none;
+    color: #Fff;
+    opacity: .7;
+    font-weight: 500;
+    font-size: .6rem;
+}
+
+.album-like{
+    opacity: .7;
+    padding: 0 .7rem ;
+}
+
+.album-song:hover, .album-singer:hover, .album-like:hover{
+    opacity: 1;
+}
+
+.album-song:hover, .album-singer:hover{
+    text-decoration: underline;
+}
+
+.player{
+    width: 50%;
+}
+
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-control{
+    height: 1rem;
+    margin: .7rem;
+    opacity: .7;
+}
+
+.player-control:hover{
+    opacity: 1;
+}
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    font-size: .7rem;
+    opacity: .7;
+    margin: 0 .2rem;
+}
+
+.progress-bar{
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 5rem;
+    height: .2rem;
+}
+
+.progress-bar::-webkit-slider-thumb{
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -7px;
+}
+
+.progress-bar::-webkit-slider-runnable-track:active{
+    height: .25rem;
+    background-color: #fff;
+}
+
+.progress-bar::-webkit-slider-thumb:active{
+    border: 3px solid rgb(210, 204, 204);
+}
+
+.controls-parent{
+    width: 25%;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 1.8rem;
+    background-color: #1bd760;
+    border-radius: 100px;
+    margin-left: 2rem;
+    padding: .5rem;
+}
+
+.controls  svg{
+    height: 1.1rem;
+    opacity: .6;
+    padding: .3rem .3rem;
+}
+
+.controls  svg:hover{
+    opacity: 1;
+    background-color: rgba(128, 128, 128, 0.658);
+    border-radius: .5rem;
+}
+
+.controls input{
+    width: 6rem;
+}
