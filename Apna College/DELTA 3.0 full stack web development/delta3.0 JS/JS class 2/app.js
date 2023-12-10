@@ -194,21 +194,36 @@ if(str[0]==="A" || str[0]==="a" && str.length>5){
 }
 
 // QUESTION 5
-// let largestNum = 1 ;
-// if(largestNum.length <= 3){
-//       console.log(largestNum);
-//        largestNum++;
-//     if(largestNum[0]===9 && largestNum[1]===9 && largestNum[2]===9){
-//    }
-// }
-
+let u =23;
+let v =43;
+let w =53;
+if(u>v){
+    if(u>w){
+        console.log("u is greatest");
+    }
+    else{
+        console.log("w is greatest");
+    }
+}else {
+    if (v>w){
+        console.log("v is greatest");
+    }
+    else{
+        console.log("w is greatest");
+    }
+}
 
 
 // QUESTION 6
 let num1 = 343;
-let num2 = 34593480975987;
-if(num1[num1.length-1]===num2[num2.length-1]){
-    console.log("last digit of numbers is same");
+let num2 = 34593480975983;
+// if(num1[num1.length-1] == num2[num2.length-1]){
+//     console.log("last digit of numbers is same", num1[num1.length-1]);
+// }else{
+//     console.log("last digit of numbers is not same");
+// }
+if (num1%10 == num2%10){
+    console.log("they have same last digit which is",num1%10);
 }else{
-    console.log("last digit of numbers is not same");
+    console.log("not same last digit");
 }
