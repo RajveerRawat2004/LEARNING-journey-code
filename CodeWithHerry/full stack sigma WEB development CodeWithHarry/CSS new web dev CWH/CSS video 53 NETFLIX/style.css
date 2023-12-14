@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    height: 70vh;
+    /* width: ; */
+    background-image: url("assets/images/bgcopy.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px ,100vw);
+    position: relative;
+    /* top: 0; */
+}
+
+.main .box{
+    background-color: black;
+    opacity: 0.54;
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    max-width: 65vw;
+    height: 62px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero   {
+    font-family: 'martel Sans', sans-serif;
+    height: calc(100% -62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation{
+    height: 11px;
+    background-color: gray;
+}

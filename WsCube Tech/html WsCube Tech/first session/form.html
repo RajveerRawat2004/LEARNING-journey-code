@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h2>Enquiry to issues</h2></legend>
+        <form action=" ">
+            Name : <input type="text" placeholder="your name" readonly="" value="rajveer rawat"><br><br>
+            Address : <textarea name="" id="" cols="30" rows="10" placeholder="your current address" ></textarea><br><br>
+            Gender : 
+            <input type="radio" value="m" name="gender" checked=""/> Male
+            <input type="radio" value="f" name="gender" /> Female
+            <input type="radio" value="o" name="gender" /> other <br/><br>
+            Country : 
+            <select name="" id="">
+                <option value="country">please select your country</option>
+                <optgroup label="Asia">
+                    <option value="india">India</option>
+                    <option value="srilanka">srilanka</option>
+                </optgroup>
+                <option value="USA">USA</option>
+                <option value="France">France</option>
+            </select><br><br>
+            Hobby :
+            <input type="checkbox" name="hobbies[]" checked=""/>Dancing
+            <input type="checkbox" name="hobbies[]"/>Singing
+            <input type="checkbox" name="hobbies[]"/>Running
+            <input type="checkbox" name="hobbies[]"/>Painting<br><br>
+            Image : 
+            <input type="file" name="documents or file" /><br><br>
+            <input type="submit"/>
+            <input type="submit" value="send"/><br><br>
+            <input type="reset"/><br><br>
+    </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend><h2>New Form LOG IN</h2></legend>
+            Name : <input type="text" placeholder="full name" required="" autofocus="" maxlength="30" /><br><br>
+            color : 
+            <input type="color" name="color" id="" value="#FF0000"/><br><br>
+            E-mail : 
+            <input type="email" name="email"/><br><br>
+            Password : 
+            <input type="password" name="password"/><br><br>
+            Age : 
+            <input type="number" name="number" min="1" max="25"/><br><br>
+            Secret :
+            <input type="hidden" name="non-public details"/><br><br>
+            <input type="range" min="1" max="200" value="150"/>
+            <input type="submit" />
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend><h2>Calander Element form</h2></legend>
+            Date : <input type="date" name="date"/><br><br>
+            Datetime-local : <input type="datetime-local" name="date and time"/><br><br>
+            Time : <input type="time" name="time"/><br><br>
+            Month : <input type="month" name="month"/><br><br>
+            Week : <input type="Week" name="Week"/><br><br>
+            Range : <input type="range" name="range" /><br><br>
+            <input type="submit"/>
+        </fieldset>
+    </form>
+</body>
+</html>

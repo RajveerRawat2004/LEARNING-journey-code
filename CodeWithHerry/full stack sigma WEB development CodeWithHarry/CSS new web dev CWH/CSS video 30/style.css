@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color: rgb(255, 159, 175);
+    --seccolor: rgb(255, 191, 201);
+    --defmar: 0px 100px 0px 100px;
+    --deffontsize: 20px;
+    --deffontwet: 900;
+    --defpadding: 5px 15px 5px 15px;
+    --defborder: 5px solid rgb(255, 191, 201);
+    --defbdrrds: 15px 15px 0 0;
+}
+
+.nav{
+    background-color: var(--color);
+}
+
+.container{
+    background-color: var(--seccolor);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    font-weight: var(--deffontwet);
+    font-size: var(--deffontsize);
+    color: white;
+    margin: var(--defmar);
+    padding: var(--defpadding);
+    border: var(--defborder);
+    border-radius: var(--defbdrrds);
+}

@@ -1,0 +1,50 @@
+.container{
+    width: 80vh;
+    height: 30vw;
+    background-color: purple;
+}
+
+.box{
+    height: 35px;
+    width: 45px;
+    /* background-color: aqua;
+    animation: myAnimationtrial ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s ; */
+    /* animation-iteration-count: infinite; */
+    animation: myAnimationtrial 3s ease-in-out 2s  , 
+                myanime2 3s ease-in-out 2s 1;
+    animation-play-state: running;
+}
+
+@keyframes myAnimationtrial {
+    from{
+        position: relative;
+        left: 0;
+        background-color: red;
+    }
+    to{
+        position: relative;
+        left: 500px;
+        background-color: yellow;
+    }
+}
+
+@keyframes myanime2 {
+    0%{
+        transform: rotate(100deg);
+    }
+    20%{
+        transform: rotate(300deg);
+    }
+    50%{
+        transform: rotate(100deg);
+    }
+    80%{
+        transform: rotate(300deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}

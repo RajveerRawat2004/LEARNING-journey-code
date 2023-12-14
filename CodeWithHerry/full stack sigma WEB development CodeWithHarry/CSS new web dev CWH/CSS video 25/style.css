@@ -1,0 +1,9 @@
+nav ul li{
+    display: list-item;
+    list-style: devanagari;
+    background-color: yellow;
+    list-style-position: inside;
+    border: 2px solid black;
+    /* list-style-image: url("just\ social\ logo.png"); */
+    list-style-type: "❤️";
+}

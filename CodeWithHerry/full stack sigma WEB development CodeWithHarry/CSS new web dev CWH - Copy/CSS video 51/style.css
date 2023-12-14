@@ -1,0 +1,41 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+    background-color: aqua;
+    position: relative;
+}
+
+.ball{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: Xanimation 4s linear infinite,
+               Yanimation 0.8s cubic-bezier(0.05, 0.16, 0.24, 1) infinite alternate;
+}
+
+@keyframes Xanimation {
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 45vw;
+    }
+    100%{
+        left: 90vw;
+    }
+}
+
+@keyframes Yanimation {
+    0%{
+        bottom: 0;
+    }
+    100%{
+        bottom: 90%;
+    }
+}

@@ -1,0 +1,74 @@
+/* *{
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+div{
+    color: wheat;
+    background-color: black;
+    border: 2px solid rosybrown;
+}
+
+.red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+div p{
+    color: cyan;
+    background-color: olive;
+}
+
+div > p{
+    color: yellow;
+    background-color: brown;
+}
+
+a{
+    font-size: 20px;
+    margin: 20px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+} */
+
+a:visited {
+    /* color: black; */
+    /* background-color: red;
+    margin: 10px; */
+}
+
+/* a:hover{
+    background-color: rgb(232, 232, 232);
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+p:first-child{
+    background-color: pink;
+} */
+
+
+/* DEMO FOR PRACTICE / DEMO FOR PRACTICE / DEMO FOR PRACTICE / DEMO FOR PRACTIfCE /  */
+
+
+/* div p{
+    background-color: red;
+}
+div > p{
+    background-color: pink;
+} */
+
+p:nth-child(1){
+    background-color: green;
+}
+
+p:nth-child(2){
+    background-color: green;
+}
+
+p:first-child{
+    background-color: red;
+}

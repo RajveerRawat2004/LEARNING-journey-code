@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+
+footer{
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    /* border: 2px solid black; */
+
+    display: flex;
+    /* background-color: black; */
+    height: 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div{
+    margin-left: 60px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    color: black;
+}
+
+/* Section 1  */
+
+.download{
+    text-align: center;
+    margin: 0px 28px 0px 28px;
+    padding-top: 55px;
+    padding-left: 50px;
+    padding-right: 51px;
+}
+
+.download p:first-child{
+    font-size: 50px;
+    padding-bottom: 0px 0px 10px;
+    /* margin: 0px 15px 20px 15px; */
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.download p:nth-child(2){
+    font-size: 25px;
+    padding-bottom: 0px 0px 10px;
+    margin-bottom: 30px;
+}
+
+.download .maclinuxdownload a{
+    font-size: 14px;
+    padding: 15px 20px;
+    background-color: #00b6d1;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.download .maclinuxdownload{
+    margin-bottom: 70px;
+    margin-top: 45px;
+}
+
+/* DOWNLOAD grid section */
+
+.downloadgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    margin: 10px 80px;
+    gap: 20px 30px;
+}
+
+.element{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-right: 14px;
+    padding-bottom: 35px;
+    padding-left: 14px;
+    text-align: center;
+}
+
+.element h3{
+    letter-spacing: 0.5px;
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.element h3 small{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.element .DAbutton32{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 650;
+    color: white;
+    padding: 9px 13px;
+    border-radius: 6px;
+    margin-right: 3px;
+    background-color: #00b6d1;
+}
+
+.element .DAbutton64{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 650;
+    color: white;
+    padding: 9px 13px;
+    border-radius: 5px;
+    /* margin-left: 5px; */
+    background-color: #5cb85c;
+}
+
+/* newsletter section  */
+
+.newsletterMSI{
+    height: 700px;
+    background-color: black;
+    color: white;
+    padding: 45px 0;
+}
+
+.newsletter{
+    margin: 0 80px;
+    padding: 22px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0 50px;
+}
+
+.newsletterMSI .newsletter .NLetter1{
+    
+}
+
+.newsletterMSI .newsletter .NLetter2{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px 55px 26px 55px;
+    padding: 30px 35px;
+}
+
+.newsletterMSI .newsletter .NLetter1 h3{
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.newsletterMSI .newsletter .NLetter1 p{
+
+}
+
+.newsletterMSI .newsletter .NLetter2 h3{
+    color: rgba(0, 128, 0, 0.725);
+    font-size: 23px;
+    font-weight: 499;
+    margin-bottom: 25px;
+}
+
+.newsletterMSI .newsletter .NLetter2 form{
+    
+}
+
+.newsletterMSI .newsletter .NLetter2 form label{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 3.6px;
+}
+
+.newsletterMSI .newsletter .NLetter2 form input:nth-child(2){
+    padding: 10px;
+    border: 1px solid rgba(51, 51, 51, 0.16);
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    margin: 3.9px 0 10px;
+}
+
+.newsletterMSI .newsletter .NLetter2 form input:nth-child(3){
+    background-color: #00b6d1;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%;
+    height: 47px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 12px 18px -6px rgb(77 170 242 / 37%);
+}

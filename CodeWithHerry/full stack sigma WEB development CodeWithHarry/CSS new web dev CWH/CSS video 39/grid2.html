@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS video 39 grid</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .container{
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-columns: ;
+            grid-template-rows: ; */
+            grid-template-areas: "nav nav nav"
+                                "side article article"
+                                "footer footer footer";
+        }
+
+        .box{
+            border: 2px solid red;
+            height: 55px;
+            width: auto;
+        }
+
+        .item-1{
+            grid-area: nav;
+            background-color: red;
+        }
+
+        .item-2{
+            grid-area: side;
+            background-color: brown;
+        }
+
+        .item-3{
+            grid-area: article;
+            background-color: darkolivegreen;
+        }
+
+        .item-4{
+            grid-area: footer;
+            background-color: coral;
+        }
+
+        .item-5{
+            grid-area: footer;
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box item-1">1</div>
+        <div class="box item-2">2</div>
+        <div class="box item-3">3</div>
+        <div class="box item-4">4</div>
+        <div class="box item-5">5</div>
+    </div>
+    <a href="grid2.html"></a>
+</body>
+</html>

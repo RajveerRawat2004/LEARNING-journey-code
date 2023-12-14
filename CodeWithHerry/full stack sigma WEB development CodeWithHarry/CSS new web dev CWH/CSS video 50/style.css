@@ -1,0 +1,5 @@
+img{
+    height: 600px;
+    /* filter: blur(10px); */
+    filter: contrast(22%);
+}

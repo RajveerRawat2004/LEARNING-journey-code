@@ -1,0 +1,25 @@
+.cont{
+    height: 90vh;
+    width: 90vw;
+    /* background-color: rgb(0, 128, 240); */
+    background-image: url("desktop-wallpaper-computer-programmer-graphic-designer.jpg");
+    background-color: yellow;
+    border: 4px outset forestgreen;
+    /* background-position: bottom left; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-x;
+}
+
+img{
+    /* background-color: yellow;
+    height: 40vh;
+    width: 45vw; */
+    /* object-fit: cover; */
+    /* object-fit: contain ; */
+    /* object-fit: fill; */
+    /* object-position: top; */
+    /* object-position: top left; */
+
+}
+

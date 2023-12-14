@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS video 48 Exercise 8</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: blue;
+            height: 80vh;
+            width: 80vw;
+            position: relative;
+            top: 0;
+            bottom: auto;
+        }
+        .ball{
+            text-align: center;
+            background-color: red;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            animation: Xanimation 10s linear 1 ,
+                        Y1stAnimation 10s cubic-bezier(0,-0.02, 0, 0.93) 1
+                       ;
+            /* animation-fill-mode: forwards; */
+        }
+        @keyframes Xanimation {
+            0%{
+                left: 0;
+            }
+            33.3%{
+                left: 250px;
+            }
+            66.6%{
+                left: 500px;
+            }
+            100%{
+                left: 730px;
+            }
+        }
+        @keyframes Y1stAnimation {
+            0%{
+                bottom: 0;
+                top: auto;
+            }
+            16.65%{
+                top: 0;
+                bottom: auto;
+            }
+            33.3%{
+                bottom: 0;
+                top: auto;
+            }
+            49.95%{
+                top: 0;
+                bottom: auto;
+            }
+            66.6%{
+                bottom: 0;
+                top: auto;
+            }
+            83.25%{
+                top: 0;
+                bottom: auto;
+            }
+            100%{
+                bottom: 0;
+                top: auto;
+            }
+        }
+        /* @keyframes YEndAnimation{
+            12.5%{
+                top: 0;
+                bottom: 80vh;
+            }
+            25%{
+                bottom: 0;
+                top: 80vh;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ball">
+            ball
+        </div>
+    </div>
+</body>
+</html>

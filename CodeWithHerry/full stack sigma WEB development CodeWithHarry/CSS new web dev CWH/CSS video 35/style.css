@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box:first-child {
+    background-color: green;
+}
+
+.boxes::first-line {
+    color: yellow;
+}
+
+.box:nth-child(even) {
+    background-color: pink;
+}
+
+.box:nth-last-child(1) {
+    background-color: blue;
+}
+
+.box::before{
+    content: "rajveer is a good person --> ";
+}
+
+.box::after{
+    content: " --> thanks ";
+}
+
+.box::selection{
+    color: aqua;
+    background-color: black;
+}
+
+.boxes::first-letter{
+    color: red;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+input::placeholder{
+    color: pink;
+    background-color: gray;
+    /* font-size: 45px; */
+}
