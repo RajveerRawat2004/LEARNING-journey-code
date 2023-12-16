@@ -68,8 +68,8 @@ body{
     height: 1.5rem;
 }
 
-.title-name{
-    margin-left: 0.2rem;
+#title-name{
+    margin-left: 0.7rem;
     font-size: .9rem;
     font-weight: 600;
 }
