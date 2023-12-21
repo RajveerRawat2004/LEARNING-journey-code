@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial;
   }
   
@@ -38,5 +38,37 @@ body {
   
   #description {
     background-color: antiquewhite;
+  } */
+
+/* pracitce Questions------------------------------------------- */
+
+  /* .blueColor {
+    color: blue;
   }
-  
+
+  .redColor {
+    color: red;
+  }
+
+  .bgpink {
+    background-color: pink;
+  }
+
+  .borderblack{
+    border: 2px solid black;
+  }
+
+  .padding15{
+    padding: 15px;
+  } */
+
+/* ASSIGNMENTS Questions------------------------------------------- */
+
+.bgblueAndColorwhite {
+  background-color: blue;
+  color: white;
+}
+.underlineAndPurplecolor {
+  color: purple;
+  text-decoration: underline;
+}
