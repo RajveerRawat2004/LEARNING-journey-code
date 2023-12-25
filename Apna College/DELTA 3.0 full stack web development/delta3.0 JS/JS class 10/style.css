@@ -1,18 +1,19 @@
 /* body {
   text-align: center;
-}
+} */
 
 div {
   height: 20vh;
   width: 60vw;
   border: 2px solid black;
   margin: auto;
-} */
+  background-color: green;
+}
 
 /* --------------------------------- */
-.box{
+/* .box{
   height: 100px;
   width: 100px;
   background-color: pink;
   border: 1px solid black;
-}
+} */

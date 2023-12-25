@@ -158,8 +158,11 @@ form.addEventListener("submit", function (e) {
 let text = document.querySelector("#text");
 let para = document.querySelector("p");
 
-text.addEventListener("input", function () {
-  console.log(text.value);
-  para.innerText = text.value;
+// text.addEventListener("input", function () {
+//   console.log(text.value);
+//   para.innerText = text.value;
+// });
+
+para.addEventListener("", function (){
+  
 });
-kkkf
